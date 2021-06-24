@@ -1,6 +1,6 @@
-# Spicetify-Orchis-Colours v2
+# Spicetify-Breeze-Dark v2
 
-A [Spicetify](https://github.com/khanhas/spicetify-cli) theme based on [Sleek theme](https://github.com/morpheusthewhite/spicetify-themes/tree/v2/Sleek). Inspired by [Orchis theme](https://github.com/vinceliuice/Orchis-theme). **New Spotify UI (>v1.1.56) and Spicetify >v2 are required**. Check the old version [here](https://github.com/canbeardig/Spicetify-Orchis-Colours). 
+A [Spicetify](https://github.com/khanhas/spicetify-cli) theme based on [Orchis-Colours-v2 theme](https://github.com/canbeardig/Spicetify-Orchis-Colours-v2). Inspired by [Breeze Light theme](https://github.com/morpheusthewhite/spicetify-themes/tree/master/BreezeLight). **New Spotify UI (>v1.1.56) and Spicetify >v2 are required**.
 
 <br/>
 
@@ -10,26 +10,24 @@ A [Spicetify](https://github.com/khanhas/spicetify-cli) theme based on [Sleek th
 
 <br/>
 
-![screenshot2](screenshot2.png)
-
 
 ### Fonts
 
 Required fonts:
- - Fira Sans Regular
- - Fira Sans Medium
- - Fira Sans Bold
+ - Noto Sans Regular
+ - Noto Sans Medium
+ - Noto Sans Bold
 
-Download and install Fira font family from [Google Fonts](https://fonts.google.com/specimen/Fira+Sans).
+Download and install Noto font family from [Google Fonts](https://fonts.google.com/specimen/Noto+Sans).
 
 
 #### How to Apply
 
  - Follow the Spicetify installation guide from [the page](https://github.com/khanhas/spicetify-cli).
- - Move the DarkGreen theme folder to Linux: ```~/.config/spicetify/Themes```, Windows: ```%userprofile%\.spicetify\Themes\```, MacOS: ```~/spicetify_data/Themes```
+ - Move the BreezeDark theme folder to Linux: ```~/.config/spicetify/Themes```, Windows: ```%userprofile%\.spicetify\Themes\```, MacOS: ```~/spicetify_data/Themes```
  - Run the following commands in your Linux Terminal or Windows PowerShell to apply the colours:
  
- ```spicetify config current_theme DarkGreen```
+ ```spicetify config current_theme BreezeDark```
  
  ```spicetify apply```
  

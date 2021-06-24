@@ -2,8 +2,20 @@
     display: none;
 }
 
+.main-userWidget-dropDownMenuItemButton {
+    color: var(--spice-subtext);
+}
+
+._6b5bc370e9834a4932f57284a96a0748-scss {
+    background: none !important;
+}
+
+.main-dropDown-dropDown {
+    color: var(--spice-subtext) !important;
+}
+
 * {
-	font-family: "Fira Sans", "Roboto", "Arial", "Helvetica Neue", sans-serif !important;
+	font-family: "Noto Sans", "Roboto", "Arial", "Helvetica Neue", sans-serif !important;
 }
 
 .main-rootlist-rootlistDivider {
@@ -60,7 +72,7 @@ input {
 }
 
 .main-trackList-playingIcon {
-    filter: brightness(0) saturate(100%) invert(11%) sepia(81%) saturate(4689%) hue-rotate(359deg) brightness(78%) contrast(115%);
+    filter: hue-rotate(65deg);
 }
 
 span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
@@ -113,13 +125,18 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
     border-radius: 0;
 }
 
+.progress-bar {
+    --progress-bar-height:6px;
+}
+
 .playback-bar__progress-time {
-    display: none;
+    position: relative;
+    bottom: -4px;
 }
 
 .playback-bar {
     width: 100%;
-    bottom: 83px;
+    bottom: 80px;
     position: absolute;
 }
 
