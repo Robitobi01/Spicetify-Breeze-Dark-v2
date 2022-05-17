@@ -141,7 +141,11 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 }
 
 .main-playbackBarRemainingTime-container {
-    display: none;
+    color: var(--spice-subtext);
+}
+
+.playback-bar__progress-time-elapsed {
+    color: var(--spice-subtext);
 }
 
 .player-controls__buttons {
